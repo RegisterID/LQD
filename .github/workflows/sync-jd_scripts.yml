@@ -2,7 +2,7 @@ name: sync-jd_scripts
 
 on:
   schedule:
-  - cron:  "0 0-23/8 *  * *"
+  - cron:  "0 0-23/6 *  * *"
   workflow_dispatch:
   watch:
     types: started
